@@ -14,19 +14,40 @@
   --text-color-primary: #313131;
   --text-color-secondary: #6C6C6C;
   --font-family: "Poppins", sans-serif;
-  --text-lg: bold 32/125% var (--font-family);
-  --text-md: 14/170% var (--font-family);
-  --text-sm: 12/170% var (--font-family);
-  --text: 16/150% var (--font-family);
+  --text-lg: bold 32/125% var(--font-family);
+  --text-md: 14/170% var(--font-family);
+  --text-sm: 12/170% var(--font-family);
+  --text: 16/150% var(--font-family);
 
 
 
 }
 
 body {
-  color: var (--text-color-secondary);
-  background-color: var (--surface-color);
+  color: var(--text-color-secondary);
+  /*background-color: var(--surface-color);*/
   
+  font: var(--text);
   font-weight: 400;
   font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherity;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--brand-color);
+}
+
+.conteiner {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }
