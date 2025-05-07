@@ -45,13 +45,6 @@ Praticar os conceitos fundamentais de **Flexbox** no CSS, construindo uma interf
 - `gap` para espaçamento entre fotos
 - `flex: 1` para elementos com tamanhos dinâmicos
 
----
-
-## 📷 Prévia do Projeto
-
-![Preview do Travelgram](./screenshot.png)
-
----
 
 ## 🚀 Como Usar
 
