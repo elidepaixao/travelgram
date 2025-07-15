@@ -1,3 +1,5 @@
+![Layout do projeto](assets/images/Image_Readme.png)
+
 # Travelgram - Projeto de Página de Perfil de Viagens 🌍📸
 
 Este projeto é uma simulação de uma rede social de viagens chamada **Travelgram**, criada com **HTML** e **CSS**, utilizando amplamente o **Flexbox** para o layout responsivo e alinhado dos elementos da interface.
